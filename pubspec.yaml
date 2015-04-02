@@ -1,0 +1,9 @@
+name: LeetTranslator
+version: 0.1.0
+description: A minimal command-line application.
+environment:
+  sdk: '>=1.0.0 <2.0.0'
+dependencies:
+  quiver: '>=0.21.0 <0.22.0'
+dev_dependencies:
+  unittest: any
