@@ -22,7 +22,7 @@ BiMap inverse = mapping.inverse;
 String toLeet(String english) {
   return english.replaceAllMapped(
       new RegExp(r'[aegiost]{1}',multiLine: true, caseSensitive: false), 
-      (Match m) => "${mapping[m[0]]}"
+      (Match m) => "${mapping[m[0].toLowerCase()]}"
   );
 }
 
